@@ -1,80 +1,98 @@
-body,html {
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
-    background-color: #64748b;
+body,
+html {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #64748b;
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
-
 
 form {
   display: grid;
   justify-content: center;
-  
 }
 
-label{
-    font-size: .9rem;
+label {
+  font-size: 0.9rem;
 }
 
 .form-control {
-    height: 30px;
-    background-color: #6b7280;
-    border-color: #1e40af;
+  height: 30px;
+  background-color: #6b7280;
+  border-color: #1e40af;
 }
 
-.form-div{
-    text-align: left;
-    display: grid;
-    padding-bottom: 40px;
-    width: 500px;
-    
+.form-div {
+  text-align: left;
+  display: grid;
+  padding-bottom: 40px;
+  width: 500px;
 }
 
 #status-title {
-    text-align: center;
-    padding-bottom: 10px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 #status {
-    background-color: #6b7280;
-    color: #6b7280;
-    
-    filter: sepia(100%) brightness(80%) hue-rotate(170deg) saturate(70%) contrast(300%);
-}
+  background-color: #6b7280;
+  color: #6b7280;
 
+  filter: sepia(100%) brightness(80%) hue-rotate(170deg) saturate(70%)
+    contrast(300%);
+}
 
 .btn {
-    height: 40px;
-    background-color:#4b5563;
-    color: #cbd5e1;
-    border-color: #1e40af;
-    font-size: 1.4rem;
-    font-weight: bold;
-
+  height: 40px;
+  background-color: #4b5563;
+  color: #cbd5e1;
+  border-color: #1e40af;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 
-.table{
-    display: flex;
-    justify-content: center;
+.table {
+  margin-top: 45px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 thead > tr > th {
-    text-align: center;
-    padding: 0px 70px
+  text-align: center;
+  padding: 0px 30px;
 }
 
 thead {
-    margin-top: 50px;
-    border: 1px solid black;
-    
+  margin-top: 10px;
+  background-color: #1e40af;
+  text-align: center;
 }
 
+#book-lust {
+  text-align: center;
+}
+
+#book-list > tr {
+  text-align: center;
+}
+
+#book-list > tr > td {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.delete {
+  color: red;
+  background-color: #64748b;
+  padding-bottom: 15px;
+}
 
 .project-title {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: lighter;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
-
